@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 350px;
+    min-height: 200px;
+    box-sizing: border-box;
+    background-color: rgb(214, 202, 198);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(65, 52, 52);
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.main-container{
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input-el{
+    width: 300px;
+    height: 35px;
+    color: black;
+    /* background-color: rgb(148, 141, 133); */
+    padding-left: 15px;
+    margin-right: 1px;
+    font-size: medium;
+    border: none;
+    border-bottom: 1px solid brown;
+    border-radius: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-btn{
+    padding: 10px 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 39px;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background-color: brown;
+    border: none;
+    border-radius: 18px;
+}
+#input-btn{
+    margin-right: 5px;
+}
+#add-tab-btn{
+    margin-right: 5px;
+}
+.container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.container ol{
+    font-size: 20px;
+    color: brown;
+}
+.container ol li{
+    margin-bottom: 5px;
+}
+ol li a{
+    color: green;
+}
